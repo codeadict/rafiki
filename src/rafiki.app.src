@@ -1,16 +1,17 @@
 {application, rafiki,
- [{description, "An OTP application"},
+ [{description, "Erlang implementation of the Raft consensus protocol. "},
   {vsn, "0.1.0"},
   {registered, []},
   {mod, { rafiki_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    lager
    ]},
   {env,[]},
   {modules, []},
 
-  {maintainers, []},
+  {maintainers, ["Dairon Medina <me@dairon.org>"]},
   {licenses, []},
   {links, []}
  ]}.
